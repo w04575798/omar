@@ -8,7 +8,6 @@ var mongoose = require('mongoose');
 require('dotenv').config();
 var cors = require('cors');
 
-
 // establish connection to MongoDB
 mongoose.connect(process.env.DATABASE_URL);
 
